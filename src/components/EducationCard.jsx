@@ -1,6 +1,8 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 export default function EducationCard(props) {
   return (<div className="md:flex bg-gray-100 rounded-xl p-8 md:p-0 shadow-lg mb-6">
-  <img
+  <LazyLoadImage
     className="w-40 h-40 max-w-full md:rounded rounded-full md:float-left m-6"
     src={props.img}
     alt={props.title}

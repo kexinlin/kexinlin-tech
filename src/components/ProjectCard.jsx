@@ -1,7 +1,9 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 export default function ProjectCard(props) {
   return (
     <div class="max-w-full rounded overflow-hidden shadow-lg my-2 lg:mx-6">
-      <img class="w-full object-cover h-60" src={props.img} alt={props.title} />
+      <LazyLoadImage class="w-full object-cover h-60" src={props.img} alt={props.title} effect={"blur"}/>
       <div class="px-6 py-4">
         <div class="font-bold text-xl m-2">{props.title}</div>
         <p class="text-gray-400 text-base m-1">{props.time}</p>
