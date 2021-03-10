@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/kexinlin-tech/static/css/main.3eb772b3.chunk.css",
+    "main.js": "/kexinlin-tech/static/js/main.e01398e0.chunk.js",
+    "main.js.map": "/kexinlin-tech/static/js/main.e01398e0.chunk.js.map",
+    "runtime-main.js": "/kexinlin-tech/static/js/runtime-main.5187271f.js",
+    "runtime-main.js.map": "/kexinlin-tech/static/js/runtime-main.5187271f.js.map",
+    "static/js/2.a8d2893f.chunk.js": "/kexinlin-tech/static/js/2.a8d2893f.chunk.js",
+    "static/js/2.a8d2893f.chunk.js.map": "/kexinlin-tech/static/js/2.a8d2893f.chunk.js.map",
+    "index.html": "/kexinlin-tech/index.html",
+    "static/css/main.3eb772b3.chunk.css.map": "/kexinlin-tech/static/css/main.3eb772b3.chunk.css.map",
+    "static/js/2.a8d2893f.chunk.js.LICENSE.txt": "/kexinlin-tech/static/js/2.a8d2893f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5187271f.js",
+    "static/js/2.a8d2893f.chunk.js",
+    "static/css/main.3eb772b3.chunk.css",
+    "static/js/main.e01398e0.chunk.js"
+  ]
+}
