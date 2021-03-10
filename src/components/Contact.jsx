@@ -9,7 +9,7 @@ export default function Contact() {
         Feel free to shoot me an email :)
       </p>
       <a
-        className="bg-yellow-500 hover:bg-yellow-600 focus:outline-none text-white font-bold py-3 px-10 rounded-full no-underline"
+        className="bg-yellow-500 hover:shadow-lg focus:outline-none text-white font-bold py-3 px-10 rounded-full no-underline"
         href="mailto:kexin.lin@mail.utoronto.ca"
       >
         CONTACT ME

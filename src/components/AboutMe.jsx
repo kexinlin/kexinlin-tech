@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
     <div className="container items-center justify-between mx-auto px-4 leading-normal">
-      <div className="block text-center pt-16 md:pt-20 lg:pt-60 lg:mb-60">
+      <div className="block text-center md:pt-30 pt-60 lg:mb-60">
         <div className="avatar">
           <img className="w-52 h-52 rounded-full mx-auto" src="profile-photo2.png" alt="" />
         </div>
