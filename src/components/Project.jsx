@@ -2,19 +2,19 @@ import ProjectCard from "./ProjectCard";
 
 export default function Project() {
   return (
-    <div className="container items-center justify-between mx-auto px-4 leading-normal text-center mt-4 mb-24">
+    <div id="project" className="container items-center justify-between mx-auto px-4 leading-normal text-center mt-4 mb-24">
       <h2 className="font-black uppercase pb-8 text-3xl text-yellow-500">
         👩🏻‍💻 My Projects
       </h2>
 
-      <div className="md:w-8/12 w-10/12 mx-auto lg:grid grid-cols-2 ">
+      <div className="md:w-8/12 w-10/12 mx-auto lg:grid grid-cols-2">
         <ProjectCard
           img="moguls.jpg"
           title="Moguls Video Analyzer"
           time="January 2021 - Present"
           descriptions={[
-            "Lead a team of six for going through the process of lean start-up for a software product, which provides the service of automated video processing to extract metrics for the sport of moguls. Communicate and arrange meetings with our industrial partner from the Canada Sport Institute.",
-            "Worked as a front-end developer in a team of two software engineers. Implemented features of drag-and-drop video uploading, video playing, sending requests for video processing, data saving with tags, data displaying, filtering, and sorting, with the use of Javascript, React, and Material-UI.",
+            "Lead a team of six for going through the process of lean start-up for a SaaS product, which provides the service of automated video processing to extract metrics for professional sports. Arrange meetings and communicate with our industrial partner from the Canadian Sport Institute.",
+            "Worked as a front-end developer in a team of two software engineers. Implemented features including drag-and-drop video uploading, video playing, sending requests for video processing, data saving with tags, data displaying, filtering, and sorting, with the use of Javascript, React, and Material-UI.",
           ]}
           demoName="Web Demo (In Development)"
           demoLink="https://moguls-analysis.herokuapp.com/"
@@ -36,7 +36,7 @@ export default function Project() {
           time="March 2021"
           descriptions={[
             "Worked as a front-end developer in the deCODE hackathon with League Inc. to create a web application that aims to build vaccine trust through impact and data.",
-            "Implemented the User Survey feature and the Q&A section with Next.js and React Hooks.",
+            "Implemented the user survey feature and the FAQ section with Next.js and React Hooks.",
             "Adjusted the user interface by using TailwindCSS based on the Figma file provided by the UX designers. ",
           ]}
           demoName="Web Demo"
@@ -49,7 +49,7 @@ export default function Project() {
           title="Customized File System"
           time="February 2021"
           descriptions={[
-            "Implemented a customized file system of own designs using Filesystem in Userspace (FUSE) in C language. Supported common Linux file system commands including ls, touch, echo, cat, truncatem rm, mkdir, and rmdir.",
+            "Implemented a customized file system of own designs in C language using Filesystem in Userspace (FUSE). Supported common Linux file system commands including ls, touch, echo, cat, truncatem rm, mkdir, and rmdir.",
           ]}
           tags={["C", "Operating System"]}
         />
@@ -59,7 +59,7 @@ export default function Project() {
           title="Simple Router"
           time="October 2020"
           descriptions={[
-            "Implemented a simple router with a static routing table with the use of Mininet emulation, which can receives raw Ethernet frames, process the packets, and forward packets to the correct outgoing interface. ",
+            "Implemented a simple router with a static routing table with Mininet emulation, which can receives raw Ethernet frames, process the packets, and forward packets to the correct outgoing interface. ",
           ]}
           tags={["C", "Computer Network"]}
         />
@@ -119,7 +119,7 @@ export default function Project() {
           title="Autocomplete Engine"
           time="November 2018"
           descriptions={[
-            "Designed algorithms for suggesting strings or melodies based on a prefix tree data structure, according to a few letters (for strings) or intervals (for melodies) provided by the client along with a csv or txt file as input suggestions. Created the engine that returns the result based on the number of occurrences of each suggestion in the file, and play melodies when required by the client.",
+            "Designed algorithms to suggest strings or melodies based on a prefix tree data structure, according to a few letters (for strings) or intervals (for melodies) provided by the client along with a csv or txt file as input suggestions. Created the engine that returns the result based on the number of occurrences of each suggestion in the file, and play melodies when required by the client.",
           ]}
           tags={["Python", "Prefix Tree", "Recursion"]}
         />

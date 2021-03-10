@@ -1,4 +1,12 @@
+import { HashLink } from "react-router-hash-link";
+
 export default function Navbar() {
+  const scrollWithOffset = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -85;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+  };
+
   return (
     <nav className="fixed z-50 w-full bg-white top-0 flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg shadow-lg">
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
@@ -9,12 +17,6 @@ export default function Navbar() {
           >
             👋 Hi, I'm Kexin
           </a>
-          <button
-            className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-            type="button"
-          >
-            <i className="fas fa-bars"></i>
-          </button>
         </div>
         <div
           className="lg:flex flex-grow items-center hidden"
@@ -22,43 +24,42 @@ export default function Navbar() {
         >
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li className="nav-item">
-              <a
-                href="#Education"
+              <HashLink
+                smooth
+                to="#education"
+                scroll={(el) => scrollWithOffset(el)}
                 className="px-3 py-2 flex items-center text-base uppercase font-bold text-gray-800 hover:text-gray-600"
+              >
+                <span className="ml-2">🎓 Education</span>
+              </HashLink>
+            </li>
+            <li className="nav-item">
+              <HashLink
+                smooth
+                to="#project"
+                scroll={(el) => scrollWithOffset(el)}
+                className="px-3 py-2 flex items-center text-base uppercase font-bold text-gray-800 hover:text-gray-600"
+              >
+                <span className="ml-2">📂 Projects</span>
+              </HashLink>
+            </li>
+            <li className="nav-item">
+              <HashLink
+                smooth
+                to="#experience"
+                scroll={(el) => scrollWithOffset(el)}
+                className="px-3 py-2 flex items-center text-base uppercase font-bold text-gray-800 hover:text-gray-600"
+              >
+                <span className="ml-2">💼 Experience</span>
+              </HashLink>
+            </li>
+            <li className="nav-item">
+              <a
+                className="px-3 py-2 flex items-center text-base uppercase font-bold text-gray-800 hover:text-gray-600"
+                href="Kexin_Lin_Resume.pdf"
                 target="_blank"
-                rel="noreferrer"
               >
-                <i className="fab fa-facebook-square text-lg leading-lg text-gray-500"></i>
-                <span className="ml-2">Education</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#Experience"
-                className="px-3 py-2 flex items-center text-base uppercase font-bold text-gray-800 hover:text-gray-600"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fab fa-twitter text-lg leading-lg text-gray-500"></i>
-                <span className="ml-2">Experience</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="px-3 py-2 flex items-center text-base uppercase font-bold text-gray-800 hover:text-gray-600"
-                href="/learning-lab/tailwind-starter-kit/documentation/quick-start"
-              >
-                <i className="far fa-file-alt text-lg leading-lg text-gray-500"></i>
-                <span className="ml-2">Docs</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="download-button px-3 py-2 flex items-center text-base uppercase font-bold text-gray-800 hover:text-gray-600"
-                href="/learning-lab/tailwind-starter-kit/documentation/download"
-              >
-                <i className="fas fa-arrow-alt-circle-down text-lg leading-lg text-gray-500"></i>
-                <span className="ml-2">Download</span>
+                <span className="ml-2">📑 Resume</span>
               </a>
             </li>
           </ul>

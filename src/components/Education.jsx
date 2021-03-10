@@ -2,7 +2,7 @@ import EducationCard from "./EducationCard";
 
 export default function Education() {
   return (
-    <div className="container items-center justify-between mx-auto px-4 leading-normal text-center mt-24 mb-24">
+    <div id="education" className="container items-center justify-between mx-auto px-4 leading-normal text-center mt-24 mb-24">
       <h2 className="font-black uppercase pb-8 text-3xl text-yellow-500">
         👩🏻‍🎓 My Education
       </h2>
@@ -25,11 +25,11 @@ export default function Education() {
           img="https://pbs.twimg.com/profile_images/1167795858685014017/3dENBKN__400x400.jpg"
           title="Halifax Grammar School"
           time="September 2015 - June 2017"
-          p1="I had my high school life in Halifax, a lovely and peaceful city
+          p1="I spent my high school life in Halifax, a lovely and peaceful city
           in Nova Scotia. I received International Baccalaureate Diploma
           with a total score of 41. I won Governor General's Academic
           Medal at graduation."
-          p2="I also started to learn coding and guitar in high school. Fun
+          p2="I also started to learn coding and guitar during high school. Fun
           time!"
         />
 
