@@ -5,7 +5,7 @@ export default function AboutMe() {
     <div className="container items-center justify-between mx-auto px-4 leading-normal">
       <div className="block text-center md:pt-30 pt-60 lg:mb-60">
         <div className="avatar">
-          <LazyLoadImage className="w-52 h-52 rounded-full mx-auto" src="profile-photo2.png" alt="" />
+          <LazyLoadImage className="w-52 h-52 rounded-full mx-auto" effect={"blur"} src={"profile-photo2.png"} alt={"my profile photo"} />
         </div>
         <h2 className="font-black uppercase pt-8 pb-8 text-3xl text-yellow-500">
           👋 Hello

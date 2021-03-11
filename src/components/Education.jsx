@@ -10,7 +10,7 @@ export default function Education() {
       <div className="md:w-8/12 w-10/12 mx-auto">
 
         <EducationCard
-          img="https://pbs.twimg.com/profile_images/1014942894778650626/NyjWU7Fp_400x400.jpg"
+          img="UofT.jpg"
           title="University of Toronto"
           time="September 2017 - June 2021"
           p1="I am a Computer Science undergraduate student at the University
@@ -22,7 +22,7 @@ export default function Education() {
         />
 
         <EducationCard
-          img="https://pbs.twimg.com/profile_images/1167795858685014017/3dENBKN__400x400.jpg"
+          img="HGS.jpg"
           title="Halifax Grammar School"
           time="September 2015 - June 2017"
           p1="I spent my high school life in Halifax, a lovely and peaceful city

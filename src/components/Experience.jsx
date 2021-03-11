@@ -9,7 +9,7 @@ export default function Experience() {
 
       <div className="md:w-8/12 w-10/12 mx-auto">
         <ExperienceCard
-          img="https://pbs.twimg.com/profile_images/1247362209857941504/lOWvMqSh_400x400.jpg"
+          img="Tencent.jpg"
           role="Product Manager Intern - JOOX Product Team"
           title="Tencent Technology Company, Shenzhen"
           time="May, 2020 - August 2020"
@@ -21,7 +21,7 @@ export default function Experience() {
         />
 
         <ExperienceCard
-          img="https://pbs.twimg.com/profile_images/1247362209857941504/lOWvMqSh_400x400.jpg"
+          img="Tencent.jpg"
           role="Product Manager Intern - Billing Platform Product Team"
           title="Tencent Technology Company, Shenzhen"
           time="May, 2018 - August 2018"
