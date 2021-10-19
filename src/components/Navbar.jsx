@@ -26,6 +26,16 @@ export default function Navbar() {
             <li className="nav-item">
               <HashLink
                 smooth
+                to="#experience"
+                scroll={(el) => scrollWithOffset(el)}
+                className="px-3 py-2 flex items-center text-base uppercase font-bold text-gray-800 hover:text-gray-600"
+              >
+                <span className="ml-2">💼 Experience</span>
+              </HashLink>
+            </li>
+            <li className="nav-item">
+              <HashLink
+                smooth
                 to="#education"
                 scroll={(el) => scrollWithOffset(el)}
                 className="px-3 py-2 flex items-center text-base uppercase font-bold text-gray-800 hover:text-gray-600"
@@ -41,16 +51,6 @@ export default function Navbar() {
                 className="px-3 py-2 flex items-center text-base uppercase font-bold text-gray-800 hover:text-gray-600"
               >
                 <span className="ml-2">📂 Projects</span>
-              </HashLink>
-            </li>
-            <li className="nav-item">
-              <HashLink
-                smooth
-                to="#experience"
-                scroll={(el) => scrollWithOffset(el)}
-                className="px-3 py-2 flex items-center text-base uppercase font-bold text-gray-800 hover:text-gray-600"
-              >
-                <span className="ml-2">💼 Experience</span>
               </HashLink>
             </li>
             <li className="nav-item">

@@ -15,12 +15,12 @@ function App() {
     <Router>
       <Navbar />
       <AboutMe />
+      <Experience />
       <Education />
+      <Skill />
       <LazyLoad height={500}>
         <Project />
       </LazyLoad>
-      <Skill />
-      <Experience />
       <Contact />
       <Quote />
       <Footer />

@@ -2,7 +2,10 @@ import ProjectCard from "./ProjectCard";
 
 export default function Project() {
   return (
-    <div id="project" className="container items-center justify-between mx-auto px-4 leading-normal text-center mt-4 mb-24">
+    <div
+      id="project"
+      className="container items-center justify-between mx-auto px-4 leading-normal text-center mt-4 mb-24"
+    >
       <h2 className="font-black uppercase pb-8 text-3xl text-yellow-500">
         👩🏻‍💻 My Projects
       </h2>
@@ -11,13 +14,13 @@ export default function Project() {
         <ProjectCard
           img="moguls.jpg"
           title="Moguls Video Analyzer"
-          time="January 2021 - Present"
+          time="January 2021 - April 2021"
           descriptions={[
             "Lead a team of six for going through the process of lean start-up for a SaaS product, which provides the service of automated video processing to extract metrics for professional sports. Arrange meetings and communicate with our industrial partner from the Canadian Sport Institute.",
             "Worked as a front-end developer in a team of two software engineers. Implemented features including drag-and-drop video uploading, video playing, sending requests for video processing, data saving with tags, data displaying, filtering, and sorting, with the use of Javascript, React, and Material-UI.",
           ]}
-          demoName="Web Demo (In Development)"
-          demoLink="https://moguls-analysis.herokuapp.com/"
+          demoName="Video Demo"
+          demoLink="https://www.youtube.com/watch?v=RxU_x1gVL6Q"
           tags={[
             "Business of Software",
             "Javascript",
