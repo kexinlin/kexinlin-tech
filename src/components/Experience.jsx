@@ -17,8 +17,8 @@ export default function Experience() {
           title="Royal Bank of Canada, Toronto, Canada"
           time="June 2021 - Now"
           descriptions={[
-            "Reduced cycle time and labor effort of monthly RBC Datamart Communiques formulation by designing and implementing Communique automation, which integrates Jira, Jira Service Desk, Confluence, and Rundeck by Python scripts.",
-            "Enabled users to monitor metrics with more flexibility by adding query parameters for endpoint configurations on the MonitorDog project of Spring framework.",
+            "Designed and implemented pipelines to automate monthly RBC Datamart Communique generation, approval and consolidation. Integrated Jira, Jira Service Desk, Confluence, and Rundeck by Python scripts into the automation. Reduced cycle time and labor effort by 30%.",
+            "Added query parameters for endpoint configurations on a metric monitoring system of Spring framework. Enabled users to specify data sources at run time and monitor metrics with more flexibility.",
           ]}
         />
         <ExperienceCard
@@ -27,8 +27,8 @@ export default function Experience() {
           title="Renos Design, Toronto, Canada"
           time="April 2021 - June 2021"
           descriptions={[
-            "Enabled users to view and interact with 3D furniture models including adjusting light angles by implementing the viewer with React, Three.js, and Next.js.",
-            "Implemented a 3D showroom with Three.js to support first-person and drag view with camera auto zoom-in for close-up views of furniture.",
+            "Implemented a 3D furniture model viewer with features of drag control, light angle adjustment, and texture replacement with React, Three.js, and Next.js. Fetched models stored in AWS S3. Enabled users to view and interact with 3D furniture models.",
+            "Implemented a 3D showroom with Three.js to support first-person and drag view with camera auto zoom-in for close-up views of furniture. Engaged customers into an immersive in-browser 3D experience.",
           ]}
         />
         <ExperienceCard
